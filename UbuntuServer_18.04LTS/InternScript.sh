@@ -29,7 +29,7 @@ f_banner
 
 
 check_root() {
-if [ "$USER" != "root" ]; then
+if [ "$USER" != "internadmin" ]; then
       echo "Permission Denied"
       echo "Can only be run by root"
       exit
